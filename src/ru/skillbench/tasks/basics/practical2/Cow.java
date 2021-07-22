@@ -6,11 +6,6 @@ package ru.skillbench.tasks.basics.practical2;
 public class Cow implements Voice{
     @Override
     public void voice() {
-        System.out.println(this.toString());
-    }
-
-    @Override
-    public String toString() {
-        return "Moo! Moo!";
+        System.out.println("Moo! Moo!");
     }
 }

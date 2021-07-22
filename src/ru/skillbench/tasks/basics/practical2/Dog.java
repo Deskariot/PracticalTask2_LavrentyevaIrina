@@ -6,11 +6,6 @@ package ru.skillbench.tasks.basics.practical2;
 public class Dog implements Voice {
     @Override
     public void voice() {
-        System.out.println(this.toString());
-    }
-
-    @Override
-    public String toString() {
-        return "Woof! Woof!";
+        System.out.println("Woof! Woof!");
     }
 }

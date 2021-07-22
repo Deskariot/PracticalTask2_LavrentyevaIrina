@@ -6,12 +6,6 @@ package ru.skillbench.tasks.basics.practical2;
 public class Cat implements Voice {
     @Override
     public void voice() {
-        System.out.println(this.toString());
+        System.out.println("Meow! Meow!");
     }
-
-    @Override
-    public String toString() {
-        return "Meow! Meow!";
-    }
-
 }
